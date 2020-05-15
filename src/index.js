@@ -9,7 +9,7 @@ const userRouter = require('../src/routers/user');
 const taskRouter = require('../src/routers/task');
 const app = express();
 // const router= new express.Router()
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 // express middleware
 app.use((req, res, next) => {
